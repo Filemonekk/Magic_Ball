@@ -10,7 +10,7 @@ Magic 8 Ball to aplikacja napisana w HTML, CSS i JavaScript, która losowo gener
 - [Technologie](#technologie)
 
 ## Demo
-Możesz zobaczyć działanie aplikacji tutaj: [Magic 8 Ball Demo](https://example.com/demo)
+Możesz zobaczyć działanie aplikacji tutaj: [Magic 8 Ball Demo](https://filemonekk.github.io/Magic_Ball/)
 
 ## Funkcje
 - Użytkownik może wpisać pytanie w pole tekstowe.
