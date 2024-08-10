@@ -62,6 +62,7 @@ To run the project locally, follow these steps:
 2. 
 ```bash
 git clone https://github.com/your-username/magic-8-ball.git
+```bash
 
 2. Open the index.html file in your browser.
 
