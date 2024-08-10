@@ -43,7 +43,7 @@ Magic 8 Ball is an application written in HTML, CSS, and JavaScript that randoml
 
 ## Table of Contents
 - [Demo](#demo)
-- [Features] (#demo)
+- [Features] (#features)
 - [Installation] (#instalation)
 - [Usage] (#usege)
 - [Technologies] (#technologies)
@@ -59,8 +59,10 @@ Installation
 To run the project locally, follow these steps:
 
 1. Clone the repository:
+2. 
 ```bash
 git clone https://github.com/your-username/magic-8-ball.git
+
 2. Open the index.html file in your browser.
 
 ## Usage
