@@ -35,3 +35,43 @@ HTML
 CSS
 JavaScript
 
+
+### ENG 
+
+# Magic 8 Ball
+Magic 8 Ball is an application written in HTML, CSS, and JavaScript that randomly generates answers to questions posed by the user.
+
+## Table of Contents
+- [Demo](#demo)
+- [Features] (#demo)
+- [Installation] (#instalation)
+- [Usage] (#usege)
+- [Technologies] (#technologies)
+
+## Demo
+You can see the application in action here: [Magic 8 Ball Demo](https://filemonekk.github.io/Magic_Ball/)
+
+## Features
+The user can type a question into the text input field.
+After clicking on the ball, it shakes and displays a random answer.
+Animation of the number 8 fading out and the answer appearing.
+Installation
+To run the project locally, follow these steps:
+
+1. Clone the repository:
+```bash
+git clone https://github.com/your-username/magic-8-ball.git
+2. Open the index.html file in your browser.
+
+## Usage
+Type your question into the text input field.
+Click on the ball to receive an answer.
+
+## Technologies
+HTML
+CSS
+JavaScript
+
+
+
+
