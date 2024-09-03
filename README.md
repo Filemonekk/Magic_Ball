@@ -22,7 +22,7 @@ Aby uruchomić projekt lokalnie, wykonaj następujące kroki:
 
 1. Sklonuj repozytorium:
    ```bash
-   git clone https://github.com/twoj-login/magic-8-ball.git
+   git clone https://github.com/filemonekk/magic-8-ball.git
 2. Otwórz plik index.html w przeglądarce.
 
 ## Użycie
@@ -60,7 +60,7 @@ To run the project locally, follow these steps:
 
 1. Clone the repository:
 ```bash
-  git clone https://github.com/your-username/magic-8-ball.git
+  git clone https://github.com/filemonekk/magic-8-ball.git
 ```
 3. Open the index.html file in your browser.
 
