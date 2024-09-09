@@ -97,7 +97,7 @@ body {
     }
 
     .info h1 {
-        font-size: 2vw;
+        font-size: 4vw;
     }
 
     .bill-img img {
@@ -116,7 +116,7 @@ body {
 
 @media (max-width: 900px) {
     .info h1 {
-        font-size: 48px;
+        font-size: 4vw;
     }
 
     .bill-img img {
@@ -124,10 +124,10 @@ body {
     }
 
     .question-area input {
-        font-size: 18px;
+        font-size: 2vw;
     }
 
     .question-area .answer, .question-area .error {
-        font-size: 18px;
+        font-size: 2vw;
     }
 }
