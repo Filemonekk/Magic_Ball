@@ -18,7 +18,8 @@ body {
 .wrapper {
     display: flex;
     flex-direction: column;
-    align-items: stretch;
+    align-items: center; /* Centers the content horizontally */
+    justify-content: center; /* Centers the content vertically */
     width: 90%; /* Adjusted to a percentage for flexibility */
     max-width: 1000px;
     height: auto; /* Removed fixed height */
@@ -28,18 +29,20 @@ body {
 /* Info section */
 .info {
     text-align: center;
-    font-size: 4vw; /* Make font size responsive */
+    font-size: 2vw; /* Make font size responsive */
 }
 
 .info h1 {
     margin-bottom: 10px;
-    font-size: 8vw; /* Make font size responsive */
+    font-size: 4vw; /* Make font size responsive */
 }
 
-/* Billiard Ball Image */
 .bill-img {
-    position: relative;
+    display: flex;
+    justify-content: center; /* Centers the image horizontally */
+    align-items: center; /* Centers the image vertically */
     height: auto; /* Flexible height */
+    margin: 0; /* Optional: Adds some space around the image */
 }
 
 .bill-img img {
@@ -53,20 +56,20 @@ body {
 /* Question Area */
 .question-area h2 {
     margin-bottom: 10px;
-    font-size: 6vw; /* Responsive text */
+    font-size: 3vw; /* Responsive text */
     text-transform: uppercase;
 }
 
 .question-area input {
     padding: 10px 20px;
-    width: 100%; /* Full width on smaller screens */
-    font-size: 4vw;
+    width: 80%; /* Full width on smaller screens */
+    font-size: 2vw;
     border: 2px solid #333;
     border-radius: 8px;
 }
 
 .question-area .answer, .question-area .error {
-    font-size: 4vw;
+    font-size: 2vw;
     margin-top: 30px;
     font-weight: bold;
 }
@@ -90,23 +93,23 @@ body {
 /* Mobile phones (up to 600px) */
 @media (max-width: 600px) {
     .wrapper {
-        width: 100%;
+        width: 80%;
     }
 
     .info h1 {
-        font-size: 36px;
+        font-size: 2vw;
     }
 
     .bill-img img {
-        width: 70%; /* Smaller image */
+        width: 50%; /* Smaller image */
     }
 
     .question-area input {
-        font-size: 16px;
+        font-size: 2vw
     }
 
     .question-area .answer, .question-area .error {
-        font-size: 16px;
+        font-size: 2vw;
     }
 }
 
