@@ -14,90 +14,117 @@ body {
     background-image: linear-gradient(315deg, #7f5a83 0%, #094d7e 74%);
 }
 
+/* Wrapper with max width for larger screens */
 .wrapper {
     display: flex;
-    justify-content: center;
     flex-direction: column;
-    width: 1000px;
-    height: 600px;
+    align-items: stretch;
+    width: 90%; /* Adjusted to a percentage for flexibility */
+    max-width: 1000px;
+    height: auto; /* Removed fixed height */
+    padding: 20px;
 }
 
+/* Info section */
 .info {
     text-align: center;
-    font-size: 30px;
+    font-size: 4vw; /* Make font size responsive */
 }
 
 .info h1 {
     margin-bottom: 10px;
-    font-size: 60px;
+    font-size: 8vw; /* Make font size responsive */
 }
 
+/* Billiard Ball Image */
 .bill-img {
     position: relative;
-    height: 250px;
+    height: auto; /* Flexible height */
 }
 
 .bill-img img {
-    position: absolute;
-    top: 30px;
-    left: 300px;
-    width: 300px;
+    width: 50%; /* Scaled down for smaller screens */
+    max-width: 300px;
     cursor: pointer;
+    position: relative; /* Adjusted positioning */
+    margin: 0 auto;
 }
 
-.question-area {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    font-size: 24px;
-}
-
+/* Question Area */
 .question-area h2 {
     margin-bottom: 10px;
-    font-size: 36px;
+    font-size: 6vw; /* Responsive text */
     text-transform: uppercase;
 }
 
 .question-area input {
     padding: 10px 20px;
-    width: 80%;
-    font-size: 20px;border: 2px solid #333;
+    width: 100%; /* Full width on smaller screens */
+    font-size: 4vw;
+    border: 2px solid #333;
     border-radius: 8px;
 }
 
-.question-area .answer {
-    font-size: 30px;
+.question-area .answer, .question-area .error {
+    font-size: 4vw;
     margin-top: 30px;
-}
-
-.question-area .answer span {
-    font-size: 30px;
     font-weight: bold;
 }
 
-.question-area .error {
-    font-size: 30px;
-    font-weight: bold;
-    color: #3add8c
-}
-
+/* Keyframes for the shake animation */
 .shake-animation {
     animation: shake 1s 1;
 }
 
 @keyframes shake {
-    0% {left: 290px;
+    0% {left: 0;}
+    20% {left: 10px;}
+    40% {left: -10px;}
+    60% {left: 10px;}
+    80% {left: -10px;}
+    100% {left: 0;}
+}
+
+/* Media Queries */
+
+/* Mobile phones (up to 600px) */
+@media (max-width: 600px) {
+    .wrapper {
+        width: 100%;
     }
 
-    20% {left: 340px;
+    .info h1 {
+        font-size: 36px;
     }
-    40% {left: 290px;
+
+    .bill-img img {
+        width: 70%; /* Smaller image */
     }
-    60% {left: 340px;
+
+    .question-area input {
+        font-size: 16px;
     }
-    80% {left: 290px;
+
+    .question-area .answer, .question-area .error {
+        font-size: 16px;
     }
-    100% {left: 300px;
+}
+
+/* Tablets (up to 900px) */
+@media (max-width: 900px) {
+    .info h1 {
+        font-size: 48px;
+    }
+
+    .bill-img img {
+        width: 60%;
+    }
+
+    .question-area input {
+        font-size: 18px;
+    }
+
+    .question-area .answer, .question-area .error {
+        font-size: 18px;
     }
 }
