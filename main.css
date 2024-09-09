@@ -14,55 +14,55 @@ body {
     background-image: linear-gradient(315deg, #7f5a83 0%, #094d7e 74%);
 }
 
-/* Wrapper with max width for larger screens */
+
 .wrapper {
     display: flex;
     flex-direction: column;
-    align-items: center; /* Centers the content horizontally */
-    justify-content: center; /* Centers the content vertically */
-    width: 90%; /* Adjusted to a percentage for flexibility */
+    align-items: center; 
+    justify-content: center; 
+    width: 90%; 
     max-width: 1000px;
-    height: auto; /* Removed fixed height */
+    height: auto; 
     padding: 20px;
 }
 
-/* Info section */
+
 .info {
     text-align: center;
-    font-size: 2vw; /* Make font size responsive */
+    font-size: 2vw; 
 }
 
 .info h1 {
     margin-bottom: 10px;
-    font-size: 4vw; /* Make font size responsive */
+    font-size: 4vw; 
 }
 
 .bill-img {
     display: flex;
-    justify-content: center; /* Centers the image horizontally */
-    align-items: center; /* Centers the image vertically */
-    height: auto; /* Flexible height */
-    margin: 0; /* Optional: Adds some space around the image */
+    justify-content: center; 
+    align-items: center; 
+    height: auto; 
+    margin: 0; 
 }
 
 .bill-img img {
-    width: 50%; /* Scaled down for smaller screens */
+    width: 50%; 
     max-width: 300px;
     cursor: pointer;
-    position: relative; /* Adjusted positioning */
+    position: relative; 
     margin: 0 auto;
 }
 
 /* Question Area */
 .question-area h2 {
     margin-bottom: 10px;
-    font-size: 3vw; /* Responsive text */
+    font-size: 3vw; 
     text-transform: uppercase;
 }
 
 .question-area input {
     padding: 10px 20px;
-    width: 80%; /* Full width on smaller screens */
+    width: 80%; 
     font-size: 2vw;
     border: 2px solid #333;
     border-radius: 8px;
@@ -74,7 +74,7 @@ body {
     font-weight: bold;
 }
 
-/* Keyframes for the shake animation */
+
 .shake-animation {
     animation: shake 1s 1;
 }
@@ -88,9 +88,7 @@ body {
     100% {left: 0;}
 }
 
-/* Media Queries */
 
-/* Mobile phones (up to 600px) */
 @media (max-width: 600px) {
     .wrapper {
         width: 80%;
@@ -101,7 +99,7 @@ body {
     }
 
     .bill-img img {
-        width: 50%; /* Smaller image */
+        width: 50%; 
     }
 
     .question-area input {
@@ -113,7 +111,7 @@ body {
     }
 }
 
-/* Tablets (up to 900px) */
+
 @media (max-width: 900px) {
     .info h1 {
         font-size: 48px;
